@@ -125,11 +125,12 @@ nav .fa{
  h1{
     font-size: 40px;
     font-weight: 500;
+    text-align: center;
  }
  p{
     color: #777;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 370;
     line-height: 22px;
     padding: 10px;
  }
@@ -140,7 +141,7 @@ nav .fa{
  }
  .home-col{
     flex-basis: 31%;
-    background: #fff3f3;
+    background: #422626d4;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -244,7 +245,7 @@ nav .fa{
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    background: #fff3f3;
+    background: #422626d4;
     padding: 25px;
     cursor: pointer;
     display: flex;
@@ -263,7 +264,7 @@ nav .fa{
     text-align: left;
 }
 .feedback-col .fa{
-    color: #f44336;
+    color: #f8f7f7;
 }
 @media(max-width:700px){
     .feedback-col img{
