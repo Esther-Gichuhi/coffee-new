@@ -85,9 +85,9 @@ nav .fa{
     display: none;
 
 }
-@media(max-width: 700px){
+@media screen and (max-width: 700px){
     .text-box h1{
-        font-size: 20px;
+        font-size: 36px;
     }
     .nav-links ul li{
         display: block;
@@ -95,7 +95,7 @@ nav .fa{
     .nav-links{
        position: absolute;
        background: #221d1d;
-       height: 100vh;
+       height: 50vh;
        width: 200px;
        top: 0;
        right: -200px;
@@ -156,10 +156,11 @@ nav .fa{
  .home-col:hover{
     box-shadow: 0 0 20px 0px rgb(34, 16, 16);
  }
- @media(max-width:700px){
+ @media screen and (max-width:700px){
     .row{
         flex-direction: column;
     }
+    
  }
  /*----- menu -----*/
  .menu{
@@ -246,7 +247,7 @@ nav .fa{
     margin-bottom: 5%;
     text-align: left;
     background: #422626d4;
-    padding: 25px;
+    padding: 15px;
     cursor: pointer;
     display: flex;
 }
