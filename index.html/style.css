@@ -67,7 +67,7 @@ nav img{
 .hero-btn{
     display: inline-block;
     text-decoration: none;
-    color: #2f1e1e;
+    color: #e5c5c5;
     border: 1px solid #0e0707;
     padding: 12px 34px;
     font-size: 23px;
@@ -77,7 +77,7 @@ nav img{
 }
 .hero-btn:hover{
     border: 1px solid #221d1d;
-    background: #0c0b0b;
+    background: #453c3c;
     transition: 1s;
 }
 
@@ -264,7 +264,7 @@ nav .fa{
     text-align: left;
 }
 .feedback-col .fa{
-    color: #f8f7f7;
+    color: #a7a1a1d4;
 }
 @media(max-width:700px){
     .feedback-col img{
